@@ -2,7 +2,6 @@
 
 PIWalletGenerator is for generating a new PI seed phrase (24 word mneomic) and Public/Secret key pair and creating it on the PI Network.
 
-
 # Motivation for creation
 I wanted to have a seperate paper wallet/cold wallet and figured others might also as well as other probable use cases to a wallet outside of the PI App
 
@@ -30,7 +29,7 @@ npm install stellar-sdk @hawkingnetwork/ed25519-hd-key-rn bip39 readline
 
 ```javascript
 node DecodeWallet.js
-//inputs your existing PI Wallet's 12-word mneomic and returns it's public/secret key pair
+//inputs your existing PI Wallet's 24-word mneomic and returns it's public/secret key pair
 ```
 
 ```javascript
@@ -48,8 +47,9 @@ Congratulations, you now have a new wallet on PI Network.
 
 ## Contributing
 
-Pull requests are welcome
+Pull requests are welcome.
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
