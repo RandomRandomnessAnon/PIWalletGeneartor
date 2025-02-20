@@ -39,8 +39,6 @@ node CreateWalletOnPiNetwork.js
 
 Pull requests are welcome
 
-## Donate
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

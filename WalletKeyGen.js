@@ -7,7 +7,7 @@ const readline = require('readline').createInterface({
 });
 
 async function createMnemonic() {
-    return bip39.generateMnemonic(128); // 128 bits entropy for a 12-word mnemonic
+    return bip39.generateMnemonic(256); // 256 bits entropy for a 24-word mnemonic
 }
 
 async function getApplicationPrivateKey(mnemonic) {
@@ -19,7 +19,7 @@ async function getApplicationPrivateKey(mnemonic) {
 
 async function main() {
     const mnemonic = await createMnemonic();
-    console.log('Generated 12-word mnemonic:', mnemonic);
+    console.log('Generated 24-word mnemonic:', mnemonic);
 
     getApplicationPrivateKey(mnemonic).then((keypair) => {
         console.log('Public Key:', keypair.publicKey());
