@@ -20,6 +20,7 @@ Three seperate scripts:
 
 ## Requirements/installation
 NodeJS/NPM - download from https://nodejs.org/en/download
+
 Package Dependencies (run in your woring directory where you cloned)
 ```bash
 npm install stellar-sdk @hawkingnetwork/ed25519-hd-key-rn bip39 readline
