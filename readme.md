@@ -26,7 +26,7 @@ node DecodeWallet.js
 
 ```javascript
 node WalletKeyGen.js
-//generates a 12-work mnemonic as well as public/secret key pair
+//generates a 24-work mnemonic as well as public/secret key pair
 ```
 
 ```javascript
