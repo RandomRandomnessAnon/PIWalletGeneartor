@@ -35,6 +35,8 @@ node CreateWalletOnPiNetwork.js
 //Second input is the newly created secret key from WalletKeyGen.js
 ```
 
+Congratulations, you now have a new wallet on PI Network.
+
 ## Contributing
 
 Pull requests are welcome
