@@ -2,6 +2,11 @@
 
 PIWalletGenerator is for generating a new PI seed phrase (24 word mneomic) and Public/Secret key pair and creating it on the PI Network.
 
+# Motivation for creation
+I wanted to have a seperate paper wallet/cold wallet and figured others might also as well as other probable use cases to a wallet outside of the PI App
+
+# Scripts
+
 Three seperate scripts:
 
 DecodeWallet.js - Inputs your existing PI Wallet's 24-word mneomic and returns it's public/secret key pair
